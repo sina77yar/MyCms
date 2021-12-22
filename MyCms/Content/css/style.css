@@ -76,7 +76,7 @@ h1,h2,h3,h4,h5,h6{  font-size: 14px;  margin: 0;  padding: 0}
   border-right: 1px solid #dfdfdf
 }
 .top-menu ul li a:hover{
-  color: #FF393A
+  color: #27b6cc
 }
 .top-menu ul li a .fa-envelope{
   font-size: 15px
@@ -140,15 +140,15 @@ h1,h2,h3,h4,h5,h6{  font-size: 14px;  margin: 0;  padding: 0}
 } 
 .main-header form button:hover{
   color: #FF393A
-} 
+}
 
 
-.main-menu{
-  background-color: #2D2927;
-  padding: 5px 0;
-  border-bottom: 3px solid #FF393A;
-  position: relative;
-  min-height: 45px
+.main-menu {
+    background-color: #2D2927;
+    padding: 5px 0;
+    border-bottom: 3px solid #27b6cc;
+    position: relative;
+    min-height: 45px
 }
 .main-menu .container{
   position: relative;
@@ -262,35 +262,35 @@ h1,h2,h3,h4,h5,h6{  font-size: 14px;  margin: 0;  padding: 0}
   border:1px solid #dfdfdf;
   direction: ltr;
 }
-.news-archive{
-  position: absolute;
-  left: -45px;
-  right: 16px;
-  width: 170px;
-  line-height: 25px;
-  padding: 0 10px 5px;
-  background-color: #3996FF;
-  border-bottom: 3px solid #468CDC;
-  color: #fff;
-  font-size: 15px;
-  direction: rtl;
-  -webkit-border-bottom-right-radius: 3px;
-  -webkit-border-bottom-left-radius: 3px;
-  -moz-border-radius-bottomright: 3px;
-  -moz-border-radius-bottomleft: 3px;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
+.news-archive {
+    position: absolute;
+    left: -45px;
+    right: 16px;
+    width: 170px;
+    line-height: 25px;
+    padding: 0 10px 5px;
+    background-color: #27b6cc;
+    border-bottom: 3px solid #3f87b0;
+    color: #fff;
+    font-size: 15px;
+    direction: rtl;
+    -webkit-border-bottom-right-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 .news-archive i{
   position: relative;
   top: 4px;
   margin:0 5px 0 8px
 }
-.news-archive:hover{
-  background-color: #FF393A;
-  color: #fff;
-  border-bottom-color:#CC1010;
-}
+    .news-archive:hover {
+        background-color: #3f87b0;
+        color: #fff;
+        border-bottom-color: #3f87b6;
+    }
 #slider-one .item img{
   float: right;
   width: 40%;
@@ -327,18 +327,18 @@ h1,h2,h3,h4,h5,h6{  font-size: 14px;  margin: 0;  padding: 0}
   margin-left: 5px
 }
 #slider-one .owl-nav{ position: absolute; bottom: -40px;  left: 0}
-#slider-one .owl-nav .owl-prev,
-#slider-one .owl-nav .owl-next{
-    border-bottom: 3px solid #FF393A;
-    width: 40px;
-    height: 40px;
-    color: #fff;
-    position: relative;
-    float: left;
-    margin-right: 2px;
-    background-color: #2D2927;
-    display: block !important;
-}
+    #slider-one .owl-nav .owl-prev,
+    #slider-one .owl-nav .owl-next {
+        border-bottom: 3px solid #27b6cc;
+        width: 40px;
+        height: 40px;
+        color: #fff;
+        position: relative;
+        float: left;
+        margin-right: 2px;
+        background-color: #2D2927;
+        display: block !important;
+    }
 #slider-one .owl-nav .owl-prev:hover i,
 #slider-one .owl-nav .owl-next:hover i{
     color: #FF393A
@@ -438,8 +438,8 @@ h1,h2,h3,h4,h5,h6{  font-size: 14px;  margin: 0;  padding: 0}
   bottom: 15px
 }
 
-.category-section{
-    border:1px solid #dfdfdf;
+.category-section {
+    border: 1px solid rgb(33, 164, 184) !important;
     margin-bottom: 20px
 }
 
@@ -466,7 +466,7 @@ h1,h2,h3,h4,h5,h6{  font-size: 14px;  margin: 0;  padding: 0}
 .category-section li:before{position: absolute; font-family: 'Fontawesome'; content: '\f104'; font-size: 15px; color: #69686D; right: 19px; top: 6px}
 .category-section li a{color: #575757}
 .category-section li a:hover{color: #DD0C0C; padding-right: 10px}
-.category-section li span{ background-color: #ff393a;
+.category-section li span{ background-color: rgb(33, 164, 184) !important;
     color: #fff;
     line-height: 22px;
     margin-right: 8px;
@@ -477,13 +477,13 @@ h1,h2,h3,h4,h5,h6{  font-size: 14px;  margin: 0;  padding: 0}
 }
 
 
-footer{
+footer {
     width: 100%;
     position: relative;
     padding: 15px 0;
     margin-top: 10px;
     background-color: #2D2927;
-    border-top: 3px solid #FF393A
+    border-top: 3px solid #27b6cc
 }
 .access-links ul li{
     width: 32%;
